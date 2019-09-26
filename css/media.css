@@ -1,0 +1,81 @@
+@media screen and (max-width: 1030px) {
+	.items {
+		display: grid;
+	}
+
+	.portfolio-items,
+	.team-items {
+		grid-template-columns: auto auto;
+	}
+
+	.portfolio-items .portfolio-item:last-child {
+		display: none;
+	}
+
+	.team-items .team-item {
+		margin: 1em !important;
+		margin-bottom: 2.5em !important;
+	}
+
+	.contacts .contacts-items {
+		display: block;
+	}
+
+	.social .social-items {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		padding: 1em 0;
+		background-color: #021725;
+		border: none;
+	}
+
+	header .main-menu a.menu-trigger {
+		display: block;
+		top: .25em;
+		font-size: 2.5em;
+		color: #fff !important;
+		position: fixed;
+		right: .25em;
+		padding: 0 .25em;
+		z-index: 40;
+	}
+	
+	header .main-menu ul {
+		display: none;
+		z-index: 30;
+		position: fixed;
+		top: 4.85em;
+		z-index: 40;
+		right: 0;
+		width: 100%;
+		background-color: rgba(0, 0, 0, .75);
+	}
+
+	header .main-menu ul li {
+		display: block;
+		margin: 0;
+	}
+
+	header .main-menu ul li a {
+		padding: 1em;
+		display: block;
+		margin: 0;
+	}
+
+	header .main-menu ul li a:hover {
+		background-color: rgba(255, 255, 255, .75);
+		color: #021725;
+		padding: 1em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.portfolio-items,
+	.team-items {
+		grid-template-columns: auto;
+	}
+}

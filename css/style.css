@@ -1,0 +1,97 @@
+.preview {
+	background-image: url(../img/bc.jpg);
+	padding: 17.5em 0 20em 0;
+	text-align: center;
+}
+
+.portfolio {
+	padding-bottom: 0;
+}
+
+.portfolio h2 {
+	margin-bottom: 1.5em;
+}
+
+.portfolio .portfolio-items .portfolio-item {
+	margin: 0 .15em !important;
+}
+
+.portfolio .portfolio-items .portfolio-item:hover {
+	opacity: .75;
+	transition: .25s;
+}
+
+.team .team-items:first-child {
+	margin-top: 2.5em;
+}
+
+.team .team-items .team-item {
+	margin: 0 2.5em;
+}
+
+.team .team-items .team-item img {
+	border-radius: 25%;
+	filter: brightness(75%);
+	margin-bottom: .5em;
+}
+
+.team .team-items .team-item img:hover {
+	filter: brightness(100%);
+	transition: .25s;
+}
+
+.team .team-items .team-item span.foreword {
+	border: 1px solid #d4af37;
+	padding: .5em;
+	margin: .5em 0;
+}
+
+.contacts iframe {
+	width: 100%;
+	margin-top: 1em;
+	height: 300px;
+}
+
+.contacts h3 {
+	color: #d4af37;
+	margin-bottom: .5em;
+	text-transform: uppercase;
+}
+
+.contacts .contacts-items {
+	margin-top: 0;
+}
+
+.contacts .contacts-items .contacts-item {
+	height: 10em;
+	width: 100%;
+	margin: 0;
+	background-color: #4d5c66;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contacts .contacts-items .contacts-item p {
+	font-size: 1em;
+	margin: 0 auto;
+	color: white;
+}
+
+.social {
+	background-color: #d4af37;
+}
+
+.social span.foreword {
+	color: white;
+}
+
+.social h2 {
+	color: white;
+	margin-bottom: 2.5em;
+}
+
+.social a:hover {
+	opacity: .75;
+	transition: .25s;
+}
